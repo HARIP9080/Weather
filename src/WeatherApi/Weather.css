@@ -1,0 +1,46 @@
+/* Styles for the Weather App */
+
+.weather-app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Set the background color */
+    font-family: 'Arial', sans-serif; /* Define the font */
+  }
+  
+  .title {
+    text-align: center;
+    color: #333; /* Set the text color */
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .weather-container {
+    text-align: left; /* Align text to the left */
+    margin-top: 20px;
+    background-color: #fff; /* Set the background color for the weather container */
+    padding: 15px;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .error-message {
+    color: #ff0000; /* Set the error message color to red */
+    margin-top: 10px;
+  }
+  
